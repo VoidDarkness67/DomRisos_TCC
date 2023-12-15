@@ -1,0 +1,677 @@
+ * {
+    padding: 0;
+    /* */
+
+    margin: 0;
+    /* */
+
+    vertical-align: baseline;
+    /* */
+
+    list-style: none;
+    /* */
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        /* */
+}
+
+/* LOGO */
+.line{
+    background-color: #238881c5;
+    width: 100%;
+    height: 1em;
+}
+
+header {
+    background-color: #32C2B9;
+    padding: 1%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+}
+
+#texto-header {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+#texto-header img {
+    background-color: white;
+    border-radius: 50%;
+    width: 8%;
+    border-style: transparent;
+}
+
+#texto-header img:hover{
+    transition: 0.4s;
+    width: 9%;   
+}
+
+#texto-header h1 {
+    align-items: center;
+    font-size: 300%;
+    margin-left: 2%;
+    color: white;
+    font-weight: 350;
+}
+
+/* LOGO */
+
+
+
+/* MENU */
+
+#list-menu {
+    display: flex;
+
+}
+
+.item-header  {
+    text-decoration: none;
+    margin-right: 3em;
+    font-weight: 100;
+}
+
+.item-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.item-header a:hover{
+    transition: 0.3s;
+    font-size: 1.1em;
+    color: lightslategray;
+}
+/* MENU */
+
+
+
+/* IMG DESTAQUE */
+#destaque {
+    margin-top: 0.2%;
+    background: linear-gradient(180deg, #5f5f5f63 8.33%, rgba(105, 105, 105, 0.445)), url(imagens/IMG\ DESTAQUE.jpg);
+    /* Filtro com imagem de fundo */
+    padding: 13vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#destaque h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.9em;
+    font-weight: 600;
+    margin-top: -8%;
+}
+
+
+#info-destaque {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15%;
+    transform: translateY(10vh);
+
+}
+
+#info-destaque a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    
+}
+
+#info-destaque img{
+    width: 5%;
+    margin: 0%;
+    padding: -10%;
+}
+
+#info-destaque a:hover {
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.1em;
+
+}
+
+#info-destaque p {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    background-color: #c0c0c0;
+    padding: 1%;
+    max-width: 50%;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+/* IMG DESTAQUE */
+
+
+
+
+/* Tratamentos */
+
+#tratamentos {
+    margin-top: 8%;
+
+}
+
+#tratamentos h2 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+#tratamentos ul {
+    display: flex;
+    text-align: center;
+
+}
+
+.tratamento-item img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+
+.tratamento-item img:hover {
+    transition: 0.4s;
+    width: 64%;
+}
+
+.tratamento-item a {
+    text-decoration: none;
+}
+
+.tratamento-item p {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* Tratamentos */
+
+
+/* Funcionário */
+#funcionarios {
+    background-color: #d3d3d3c0;
+    margin-top: 13%;
+    padding: 1%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+
+#funcionario-text h2 {
+    margin-left: 15%;
+    font-weight: 400;
+    font-size: 2em;
+    
+}
+
+#funcionario-text p {
+    max-width: 60%;
+    margin: 3%;
+    margin-left: 10%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#funcionario-text #txt2 {
+    max-width: 70%;
+}
+
+#img-thaise {
+    display: flex;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+#funcionarios img {
+    padding: 2%;
+    width: 30%;
+    border-radius: 20%; 
+    transform: translateY(-1.3em);
+
+}
+
+/* Funcionário */
+
+
+
+/* Visite */
+#visite {
+    margin-top: 0.3%;
+    background: linear-gradient(180deg, #5f5f5f63 8.33%, rgba(105, 105, 105, 0.445)), url(imagens/Criança\ no\ Dentista.jpeg);
+    /* Imagem da criança */
+    padding: 8vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#visite h2 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+/* Visite */
+
+
+/* Sobre Nós */
+#sobre-nos {
+    background-color: white;
+    padding: 5%;
+}
+
+#sobre-nos h2 {
+    text-align: left;
+
+    font-size: 2em;
+    font-weight: 450;
+}
+
+#sobre-nos p {
+    max-width: 50%;
+    font-size: 1.3em;
+    margin-top: 3%;
+    }
+
+#sobre-nos h3 {
+    background-color:  #32C2B9;
+    padding: 1% 5%;
+    border-radius: 15px;
+    max-width: 18%;
+}
+
+#sobre-nos img {
+    width: 25%;
+    height: 30%;
+    border-radius: 20%;
+    margin-left: 15%;
+}
+
+#div-sobre{
+    display: flex;
+}
+/* Sobre Nós */
+
+
+.detalhes {
+    background-color: #C0C0C0;
+    padding: 1%;
+    display: flex;
+
+}
+
+.detalhes ul {
+    /* colocar os itens lado a lado, nao consegui, tentei ao maximo !!*/
+    
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+
+}
+
+.detalhes li {
+    /* colocar os itens lado a lado, nao consegui, tentei ao maximo !!*/
+ 
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.detalhes p {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.detalhes img {
+    width: 15%;
+    height: 5%;
+    display: flex;
+}
+
+
+/* estilizando o rodapé*/
+footer {
+    background-color: #32C2B9;
+    margin-top: 4%;
+    overflow: hidden;
+}
+
+.info-footer {
+    display: flex;
+    align-items: center;
+}
+
+
+.info-footer h2 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 200;
+    align-items: center;
+}
+
+
+.sessao-footer iframe {
+    margin: 3rem;
+}
+
+#menu-footer ul{
+    display: flex;
+
+}
+
+#menu-footer {
+    display: flex;
+    align-items: center;
+
+}
+
+
+footer img {
+    width: 20%;
+    border-radius: 50vh;
+    margin: 1.5rem;
+}
+
+
+
+.meio-footer a {
+    text-decoration: none;
+    display: flex;
+    margin-left: 5em;
+    text-align: center;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+
+.linha-footer {
+    display: flex;
+    align-items: center;
+    width: 68%;
+    height: 3px;
+    border-width: 0;
+    background-color: white;
+    margin-right: 4%;
+    margin-left: 3%;
+}
+
+.texto-meio {
+    display: flex;
+    justify-content: center;
+}
+
+.maps iframe {
+    margin-right: 1rem;
+}
+
+.sessao-footer {
+    display: flex;
+}
+
+.contatos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contatos-list{
+    display: flex;
+    width: 10%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.contatos-list p{
+    text-wrap: nowrap;
+    margin-left: -2vh;
+    color: white;
+}
+
+.line{
+    background-color: #238881c5;
+    width: 100%;
+    height: 1em;
+}
+
+
+
+/*Aqui estou estilizando nosso CSS para responsividade*/
+
+
+@media (max-width : 430px) {
+    /* LOGO */
+
+    header {
+        
+        padding: 5%;
+    }
+
+    #menu-header {
+        display: none;
+    }
+
+    #texto-header{
+     display: flex;
+    }
+
+    #texto-header h1{
+        font-size: 2em;
+    }
+
+    #texto-header img {
+        width: 35%;
+    }
+
+    #login a p {
+        font-size: 1.5em;
+        margin-left: 50%;
+    }
+    /* LOGO */
+
+    /*parte principal do site*/
+
+    #destaque {
+        padding: 20%;
+    }
+
+    #info-destaque p  {
+       justify-content: space-between;
+       margin: 10%;
+
+       transform: translateY(-10vh);
+    }
+
+    #info-destaque img{
+        width: 15%;
+       
+        
+    }
+
+    #info-destaque p{
+        font-size: 1.1em;
+        max-width: 150%;
+       
+        
+    }
+
+    /* Tratamentos */
+
+    #tratamentos {
+        font-size: 1em;
+    }
+
+    #tratamentos ul {
+        display: block;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    /* Tratamentos */
+
+
+    #img-thaise {
+        display: block;
+        margin: 2%;
+        text-align: center;
+    }
+
+    #img-thaise img {
+        width: 90%; /* tamanho da imagem*/
+        margin-top: 10%;
+    }
+
+    #funcionario-text p{
+        margin: 4%;
+        max-width: none;
+    }
+
+    #funcionario-text #txt2 {
+        max-width: none;
+    } 
+
+    #funcionario-text h2 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #funcionario-info {
+        font: bold; /* deixar a letra um pouco mais grossa*/
+        font-size: 1.2em;
+        display: block;
+        text-align: justify;
+        margin: 0;
+        max-width: none;
+        
+    }
+    /*visitas*/
+    #visite{
+        padding: 12%;
+    }
+    #visite h2  { 
+        
+       font-size: 200%;
+        
+        
+    }
+    /*sobre nós*/
+
+    #sobre-nos {
+        display: block;
+    }
+
+    #sobre-nos h2 {
+       text-align: center;
+
+    }
+
+    #div-sobre img {
+        width: 45%; /* tamanho da imagem*/
+      margin-top: 40%;
+
+    }
+
+    #div-sobre p {
+       font-size: 1em;
+       text-align: justify;
+       
+    }
+
+    #sobre-nos h3 {
+        font: bold; /* deixar a letra um pouco mais grossa*/
+        font-size: 1.3em;
+        text-align: center;
+        margin: 0;
+        max-width: none;
+    }
+
+    .detalhes {
+        display: block;
+        font-size: 0.9em;
+        
+    }
+
+    .detalhes img {
+        width: 1.9em;
+        justify-content: space-between;
+    }
+    
+    /* Footer */
+
+    .sessao-footer {
+        display: block;
+    }
+
+    .sessao-footer img {
+        width: 20%;
+        margin: 1em;
+        text-align: center;
+    }
+
+    .sessao-footer h2 {
+        text-align: center;
+    }
+
+    #menu-footer {
+        display: block;
+        text-align: center;
+    }
+
+    .voltar-topo {
+        display: none;
+    }
+    
+    .meio-footer a{
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    .term-footer {
+        margin-right: 30%;
+    }
+
+    .sessao-footer iframe {
+        margin: 5%;
+    }
+
+    .linha-footer {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contatos-footer {
+        display: block;
+    } 
+  
+    .contatos-list{
+        display: flex;
+        width: 50%;
+        padding: 1%;
+    }
+
+    .final-footer {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+
+}
